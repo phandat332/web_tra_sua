@@ -1,0 +1,41 @@
+composer install
+
+npm install
+
+npm run dev
+
+cp .env.example .env
+ 
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+
+------
+cau lenh kiem tra phien ban
+ composer --version
+-------
+admin
+http://localhost:8000/login-auth
+
+admin1@gmail.com
+123456
+trang chu
+http://localhost:8000/cli/index
+
+------
+layout tong
+resources/views/inc
+
+phandat6602@gmail.com
+123456789
+----
+Chức năng
+
+- gửi xác nhận về gmail
+- comment
+- thanh toán 
+- quản lý slide
+- quản lý
